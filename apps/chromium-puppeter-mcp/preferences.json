@@ -2,7 +2,7 @@
   "homepage": "http://www.google.com",
   "homepage_is_newtabpage": false,
   "first_run_tabs": [
-    "https://www.google.com/_/chrome/newtab?ie=UTF-8"
+    "https://seller.shopee.co.id"
   ],
   "custom_links": {
     "initialized": true,
@@ -100,9 +100,9 @@
       "usb_guard": 2
     },
     "name": "neko",
-    "using_default_avatar": false,
+    "using_default_avatar": true,
     "using_default_name": false,
-    "using_gaia_avatar": false
+    "using_gaia_avatar": true
   },
   "signin": {
     "allowed": false

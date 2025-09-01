@@ -2,6 +2,8 @@
   "AutofillAddressEnabled": false,
   "AutofillCreditCardEnabled": false,
   "BrowserSignin": 0,
+  "DefaultCookiesSetting": 1,
+  "RestoreOnStartup": 1,
   "DefaultNotificationsSetting": 2,
   "DeveloperToolsAvailability": 1,
   "EditBookmarksEnabled": false,
@@ -18,18 +20,21 @@
   "PromptForDownloadLocation": false,
   "BookmarkBarEnabled": false,
   "PasswordManagerEnabled": false,
-  "BrowserLabsEnabled": false,
   "URLAllowlist": [
     "file:///home/neko/Downloads"
   ],
   "URLBlocklist": [
-      "file://*",
-      "chrome://policy"
   ],
   "ExtensionInstallForcelist": [
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx",
+    "mnjggcdmjocbbbhaepdhchncahnbgone;https://clients2.google.com/service/update2/crx",
+    "hlkenndednhfkekhgcdicdfddnkalmdm;https://clients2.google.com/service/update2/crx"
   ],
   "ExtensionInstallAllowlist": [
-      "*"
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm",
+    "mnjggcdmjocbbbhaepdhchncahnbgone",
+    "hlkenndednhfkekhgcdicdfddnkalmdm"
   ],
-  "ExtensionInstallBlocklist": []
+  "ExtensionInstallBlocklist": [
+  ]
 }
